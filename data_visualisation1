@@ -1,0 +1,13 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+df=pd.read_csv('people.csv')
+plt.title("visualisation")
+#plt.xlabel("rows")
+#plt.ylabel("cols")
+plt.pie(df.iloc[0:,1],labels=df.iloc[0:,1]) # pie-chart for age
+plt.pie(df.iloc[0:,2],labels=df.iloc[0:,2]) # pie-chart for marks
+plt.pie(df.iloc[0:,3],labels=df.iloc[0:,3]) # pie-chart for contact
+plt.pie(df.iloc[0:,4],labels=df.iloc[0:,4]) # pie-chart for study_hours
+#plt.legend()
+plt.show()
