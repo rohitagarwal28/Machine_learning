@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-df=pd.read_csv('people.csv')
+df=pd.read_csv('student.csv')
 plt.title("visualisation")
 #plt.xlabel("rows")
 #plt.ylabel("cols")
